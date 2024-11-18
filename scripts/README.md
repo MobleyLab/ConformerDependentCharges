@@ -76,4 +76,12 @@ These are the scripts used to generate 50 random conformers of a molecule and ch
 		* each replicate of the calculation will be exactly identical including in the assigned partial charges as NAGL is a conformer independent charge generation method
 
 
-
+### Generation of figures
+* `plot_2dmol_with_qdiff.ipynb`
+	* Creates a 2D image of the molecule 
+	* User selects 2 partial charge sets to compare
+	* Notebook highlights each atom based on the partial charge difference for that atom between the 2 partial charge sets
+* `plot_2dmol_with_bonddqdiff.ipynb`
+	* Creates a 2D image of the molecule 
+	* User selects 2 partial charge ∆q_bond sets to compare
+	* Notebook highlights each bond based on the ∆q_bond difference for that bond between the 2 partial charge ∆q_bond sets
